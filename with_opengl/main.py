@@ -3,7 +3,7 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
-from draw import draw_scene
+from with_opengl.draw import draw_scene
 import math
 
 # Inicjalizacja początkowej pozycji kamery oraz orientacji (pitch, yaw, roll) i zoomu.
